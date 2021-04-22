@@ -24,6 +24,66 @@ body {
   background-position: right 48vw bottom 48vh, left 48vw top 48vh;
 }
 
+.nav-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  background-color: #5060a8;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.nav-grid h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-grid-form {
+  width: 100%;
+}
+
+.nav-grid-form-erro {
+  border: 1px solid red;
+}
+
+.nav-grid-form-search {
+  height: 3.5rem;
+  width: 100%;
+  font-size: 1.7rem;
+  border-radius: 4px;
+}
+
+.nav-grid-form-btn {
+  width: 3rem;
+  height: 3rem;
+  margin-left: -3.5rem;
+  margin-top: -10rem;
+  border-radius: 50%;
+  border: 0;
+  padding: 2px;
+  background-color: white;
+}
+
+.nav-grid-form-btn-span {
+  font-size: 1.5rem;
+  color: #47c5ff;
+}
+
+.nav-grid-form-btn-span:hover {
+  font-size: 1.6rem;
+  color: rgba(71, 197, 255, 0.644);
+}
+
+.nav-grid-form-btn-span:active {
+  color: rgba(65, 255, 106, 0.863);
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
