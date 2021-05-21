@@ -63,6 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
   btnSearch.addEventListener('click', (event) => {
     event.preventDefault();
     if(!fetchForm()) {
+      const inputSearch = document.getElementById('name-poke');
+      // inputSearch.classList.toggle('error')
       console.log('fail');
     }
     console.log(fetchForm());
